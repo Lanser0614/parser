@@ -1,0 +1,41 @@
+1615196694702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletxY6eX"
+Error: no DISPLAY environment variable specified
+1615290694208	geckodriver	INFO	Listening on 127.0.0.1:53757
+1615290695216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "start-maximized" "--headless" "--disable-gpu" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQj4P07"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+
+(/usr/lib/firefox/firefox:14247): GLib-GObject-CRITICAL **: 14:51:40.346: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14279): GLib-GObject-CRITICAL **: 14:51:40.786: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:14339): GLib-GObject-CRITICAL **: 14:51:45.187: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1615290705667	Marionette	INFO	Listening on port 37723
+1615290705856	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1615292592339	geckodriver	INFO	Listening on 127.0.0.1:51537
+1615292593345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "start-maximized" "--headless" "--disable-gpu" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ8b4Jw"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+
+(/usr/lib/firefox/firefox:16195): GLib-GObject-CRITICAL **: 15:23:15.300: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16212): GLib-GObject-CRITICAL **: 15:23:15.432: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:16288): GLib-GObject-CRITICAL **: 15:23:19.138: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1615292599186	Marionette	INFO	Listening on port 44191
+1615292599323	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.

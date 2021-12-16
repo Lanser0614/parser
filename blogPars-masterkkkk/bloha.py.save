@@ -1,0 +1,67 @@
+import requests
+from bs4 import BeautifulSoup
+import pymysql
+import time
+from selenium import webdriver
+import time
+import googletrans
+from googletrans import Translator
+import json
+
+chromeOptions = webdriver.ChromeOptions() 
+chromeOptions.add_argument("--remote-debugging-port=9222")
+chromeOptions.add_argument("--disable-dev-shm-using") 
+driver = webdriver.Chrome(chrome_options=chromeOptions,executable_path="/root/bloha/chromedriver.exe")
+con = pymysql.connect(host='127.0.0.1', user='root', passwd='84SvEE71Pq', db='kattabozor',charset='utf8')
+cur = con.cursor()
+while True:
+    try:
+        req = requests.get('https://bloha.ru')
+        soup = BeautifulSoup(req.text, features="lxml")
+        href = soup.select_one(".post-thumbnail>a")["href"]
+        title = soup.select_one(".post-thumbnail>a")["title"]
+        print(title)
+        time.sleep(5)
+        article_request=requests.get(href)
+        article_soup = BeautifulSoup(article_request.text, features='lxml')
+        article = article_soup.select_one('.entry-inner')
+        break
+    except TimeoutError:
+        time.sleep(3)
+
+images_dict = {}
+images_soup = article.find_all('img',class_="size-full")
+for image in images_soup:
+    images_dict[images_soup.index(image)] = image['data-src']
+images_dict= json.dumps(images_dict)
+
+for txt in article.findAll('img'):
+    txt.replace_with("{{image}}")
+
+
+russian_text = article.get_text().split("Источник:",1)[0].replace("'",'`').replace('"','`')
+print(russian_text)
+
+translator = Translator()
+
+uz_Translator = translator.translate(russian_text,dest="uz",src='ru')
+uzbek_text = uz_Translator.text.replace("Image",'image').replace("'",'`').replace('"','`')
+
+driver.get("https://kiril-lotin.uz/")
+
+input_form = driver.find_element_by_id("TranslitForm_original_text")
+input_form.send_keys(uzbek_text)
+driver.find_element_by_class_name("btn-lg").click()
+
+time.sleep(2)
+cyrillic = driver.find_element_by_id("TranslitForm_convert_text").get_attribute("value")
+cyrillic= cyrillic.replace('имаге','image').replace("'",'`').replace('"','`')
+
+cur.execute(
+    f"INSERT INTO kattabozor.articles (title, url, images, text_rus, text_uz, text_uz_cyrillic,parsed) VALUES ('{title}', '{href}', '{images_dict}', '{russian_text}', '{uzbek_text}', '{cyrillic}',0) ON DUPLICATE KEY UPDATE url = '{href}'")
+con.commit()
+driver.close()
+# print(images_dict)
+# with open('text.txt',"w") as f:
+#    f.write(text)
+#    f.close()

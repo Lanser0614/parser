@@ -1,0 +1,139 @@
+[1619611028.700][INFO]: Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 54526
+[1619611028.700][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1619611029.702][INFO]: [86f7c14862bae1a13ebbd27618b27182] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--disable-dev-shm-usage", "--remote-debugging-port=9222", "--no-sandbox" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--headless", "--disable-dev-shm-usage", "--remote-debugging-port=9222", "--no-sandbox" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1619611029.703][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1619611029.703][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1619611029.703][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=9222 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.0d0XZA data:,
+[1619611029.704][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611029.705][DEBUG]: DevTools HTTP Request failed
+[1619611029.756][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611029.757][DEBUG]: DevTools HTTP Request failed
+[1619611029.807][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611029.812][DEBUG]: DevTools HTTP Request failed
+[1619611029.862][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611029.864][DEBUG]: DevTools HTTP Request failed
+[1619611029.914][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611029.917][DEBUG]: DevTools HTTP Request failed
+[1619611029.967][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611029.968][DEBUG]: DevTools HTTP Request failed
+[1619611030.018][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.020][DEBUG]: DevTools HTTP Request failed
+[0428/145710.023595:ERROR:platform_thread_posix.cc(135)] pthread_create: Resource temporarily unavailable (11)
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/93175567-db7e-40e9-b2d6-9fd15d3eafd9
+[0428/145710.039271:ERROR:platform_thread_posix.cc(135)] pthread_create: Resource temporarily unavailable (11)
+[1619611030.070][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.085][DEBUG]: DevTools HTTP Request failed
+[1619611030.135][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.137][DEBUG]: DevTools HTTP Request failed
+[1619611030.187][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.188][DEBUG]: DevTools HTTP Request failed
+[1619611030.238][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.239][DEBUG]: DevTools HTTP Request failed
+[1619611030.289][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.291][DEBUG]: DevTools HTTP Request failed
+[1619611030.341][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.342][DEBUG]: DevTools HTTP Request failed
+[1619611030.393][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.394][DEBUG]: DevTools HTTP Request failed
+[1619611030.444][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.445][DEBUG]: DevTools HTTP Request failed
+[1619611030.495][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.497][DEBUG]: DevTools HTTP Request failed
+[1619611030.547][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.549][DEBUG]: DevTools HTTP Request failed
+[1619611030.599][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.600][DEBUG]: DevTools HTTP Request failed
+[1619611030.651][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.652][DEBUG]: DevTools HTTP Request failed
+[1619611030.702][DEBUG]: DevTools HTTP Request: http://localhost:9222/json/version
+[1619611030.704][DEBUG]: DevTools HTTP Request failed
+[1619611030.706][INFO]: [86f7c14862bae1a13ebbd27618b27182] RESPONSE InitSession ERROR unknown error: Chrome failed to start: crashed.
+  (chrome not reachable)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+[1619611030.706][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1619611030.706][DEBUG]: Log type 'browser' lost 0 entries on destruction

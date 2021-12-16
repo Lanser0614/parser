@@ -1,0 +1,202 @@
+# -*- coding: utf-8 -*-
+import requests
+from bs4 import BeautifulSoup
+import pymysql
+import time
+from selenium import webdriver
+import time
+import argparse
+from webdriver_manager.firefox import GeckoDriverManager
+
+
+con = pymysql.connect(host='127.0.0.1', user='root', passwd='84SvEE71Pq', db='kattabozor',charset='utf8')
+start_time = time.time()
+
+def selenka(con):
+	binary = '/usr/bin/firefox' 
+	options = webdriver.FirefoxOptions() 
+	options.binary = binary 
+	options.add_argument('start-maximized') 
+	options.add_argument('--headless')
+	options.add_argument('--disable-gpu')
+	options.add_argument('--disable-extensions')
+	path_to_driver = "usr/local/bin"
+
+	driver = webdriver.Firefox(options=options,executable_path = GeckoDriverManager().install())
+	try:
+		try:
+			for j in range(13000):
+				cur = con.cursor()
+				cur.execute("SELECT name FROM products where parsed = 0;")
+				row = cur.fetchone()
+				print(row)
+				driver.get(f"https://www.google.com/search?q=  olcha.uz {row[0]}")
+				html = driver.page_source
+				soup = BeautifulSoup(html, features="lxml")
+				try:
+					rows = soup.find_all('div', {'class': "g"})
+					for i in range(0, 5):
+						href = rows[i].select("div>div>a")
+						href = href[0]['href']
+						if 'olcha.uz/product' in href:
+							href = href.replace('https://www.olcha.uz/product/view/', '').replace('https://olcha.uz/product/view/', '')
+							print(row[0])
+							cur.execute(f"UPDATE products SET olcha_url='{href}', parsed=1 WHERE name='{row[0]}';")
+							print("The query affected {} rows".format(cur.rowcount))
+							con.commit()
+							break
+						else:
+							cur.execute(f"UPDATE products SET olcha_url='Не найден', parsed=1 WHERE name='{row[0]}';")
+							print("The query affected {} rows".format(cur.rowcount))
+							con.commit()
+							break
+				except IndexError:
+					print('ErroringASDsadas' ,row[0])
+					cur.execute(f"UPDATE products SET olcha_url='Не найден', parsed=1 WHERE name='{row[0]}';")
+					con.commit()
+		except TypeError:
+			driver.quit()
+			cur = con.cursor()
+			print('s')
+			cur.execute("UPDATE products SET parsed=0")
+			con.commit()
+			driver.close()
+	except:
+		driver.quit()
+	finally:
+		driver.quit()
+
+def get_category(con):
+	url = 'https://www.kattabozor.uz/'
+	req = requests.get(url)
+	soup = BeautifulSoup(req.text, features="lxml")
+	hrefs = []
+	tables = soup.find_all('h2', {'class': "fs-20"})
+	tables.pop()
+	cur = con.cursor()
+	for child in tables:
+		child = child.find("a", recursive=False)
+		cur.execute(f"INSERT INTO category (href, name) VALUES (\"{child['href'].rstrip()}\", '{child.get_text(strip=True)}') ON DUPLICATE KEY UPDATE href =\"{child['href'].rstrip()}\"")
+		con.commit()
+
+def get_products(con):
+	try:
+		for i in range(30000):
+			c=0
+			cur = con.cursor()
+			cur.execute("SELECT href from kattabozor.category where parsed = 0")
+			href = cur.fetchone()
+			if href[0] == '/category/mobilnye-telefony?inStock=true':
+				print('Телефон')
+				for i in range(1, 200):
+					req = requests.get(f'https://www.kattabozor.uz{href[0]}&page={i}')
+					soup = BeautifulSoup(req.text, features="lxml")
+					product_card = soup.select(".border-0")
+					print(href)
+					if product_card==[]:
+						break
+					else:
+						for el in product_card:
+							print(el.select('.product-name > a'))
+							name = str(el.select('.product-name > a')[0].get_text(strip=True))
+							name = name.replace("'", '`')
+							try:
+								merchant_name = el.select('.merchant-name')[0]
+								cur.execute(
+									f"INSERT INTO kattabozor.phone_urls (phone_name,phone_url,parsed) VALUES ('{el.select('.col-md-5>h5>.text-decoration-none')[0]['href']}','{name}',1) ON DUBLICATE KEY UPDATE  phone_url = '';")
+								con.commit()
+
+							except IndexError:
+								try:
+									cur.execute(
+										f"UPDATE kattabozor.products SET price = '{el.select('.col-md-5>h5>b')[0].get_text(strip=True)}', anchor_key='{el.select('.product-name>a')[0]['href']}' WHERE name = '{name}' AND merchant='{el.select('.merchant-name')[0].get_text(strip=True)}';")
+									con.commit()
+								except IndexError:
+									continue
+			else:
+				print(href)
+				for i in range(1, 300):
+					req = requests.get(f'https://www.kattabozor.uz{href[0]}&page={i}')
+					soup = BeautifulSoup(req.text, features="lxml")
+					product_card = soup.select(".border-0")
+					if not product_card:
+						break
+					else:
+						for el in product_card:
+							c+=1
+							try:
+								name = el.select('.product-name>a')[0].get_text(strip=True)
+								name = str(name).replace("'", '`')
+								price = el.select('.col-md-5>h5>b')[0].get_text(strip=True)
+								merchant_name = el.select('.merchant-name')[0].get_text(strip=True)
+								unique_key = el.select('.product-name>a')[0]['href']
+								# unique_key = unique_key.replace('/', '')
+								cur.execute(f"UPDATE kattabozor.products SET price='{price}', parsed=1 , anchor_key='{unique_key}' WHERE name = '{name}' AND merchant='{merchant_name}';")
+								con.commit()
+							except IndexError:
+								continue
+			cur.execute(f"UPDATE kattabozor.category SET parsed = 1 where href = '{href[0]}'")
+			print(c)
+			con.commit()
+	except TypeError:
+		cur = con.cursor()
+		cur.execute("UPDATE kattabozor.category SET parsed = 0")
+		con.commit()
+
+def insert_phone(con):
+	try:
+		for i in range(300):
+			cur = con.cursor()
+			cur.execute("SELECT product_url FROM phone_urls where parsed = 0;")
+			row = cur.fetchone()
+			req = requests.get(f'https://www.kattabozor.uz{row[0]}')
+			soup = BeautifulSoup(req.text, features="lxml")
+			phone_block = soup.select(".border-0")
+			for el in phone_block:
+				try:
+					product_name = el.select('.product-name>a')[0].get_text(strip=True)
+					product_name = product_name.replace("'", '')
+					product_price = el.select('.col-md-5>h5>b')[0].get_text(strip=True)
+					merchant_name = el.select('.merchant-name')[0].get_text(strip=True)
+					unique_key = el.select('.product-name>a')[0]['href']
+					cur.execute(f"INSERT INTO products (name, price, merchant, anchor_key) VALUES ('{product_name}', '{product_price}', '{merchant_name}', '{unique_key}') ON DUPLICATE KEY UPDATE price='{product_price}', anchor_key = '{unique_key}'")	  
+					con.commit()
+				except IndexError:
+					continue
+			cur.execute(f"UPDATE kattabozor.phone_urls SET parsed = 1 where product_url = '{row[0]}'")
+			con.commit()
+	except TypeError:
+		cur = con.cursor()
+		cur.execute("UPDATE kattabozor.phone_urls SET parsed = 0")
+		con.commit()
+
+def google_query(con):
+	cur = con.cursor()
+	cur.execute("SELECT name FROM products where parsed = 0;")
+	row = cur.fetchone()
+	row = row[0].replace(" ", '+')
+	print(row)
+	print(f'https://duckduckgo.com/?q=olcha.uz '+row)
+	req = requests.get(f'https://duckduckgo.com/?q=olcha.uz '+row)
+	soup = BeautifulSoup(req.text, features="lxml")
+	print(soup)
+	block = soup.select('.result__a')
+	for i in range(0, 3):
+		href = block[i]['href']
+		print(href)
+
+	print(block)
+
+FUNCTION_MAP = {'get_category' : get_category,
+				'get_products': get_products,
+				'insert_phone': insert_phone,
+				'selenka' : selenka }
+
+parser = argparse.ArgumentParser()
+parser.add_argument('command', choices=FUNCTION_MAP.keys())
+args = parser.parse_args()
+func = FUNCTION_MAP[args.command]
+func(con)
+
+
+print("--- %s seconds ---" % (time.time() - start_time))

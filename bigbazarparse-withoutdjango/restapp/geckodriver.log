@@ -1,0 +1,522 @@
+1616388478953	geckodriver	INFO	Listening on 127.0.0.1:3215
+1616388481970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileKygeZh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616388486509	Marionette	INFO	Listening on port 3223
+1616388486778	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13084, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1616388495480	Marionette	INFO	Stopped listening on port 3223
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616388512159	geckodriver	INFO	Listening on 127.0.0.1:3303
+1616388515209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilenPJWxY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616388519511	Marionette	INFO	Listening on port 3312
+1616388520014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616388524523	Marionette	INFO	Stopped listening on port 3312
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616389725912	geckodriver	INFO	Listening on 127.0.0.1:6889
+1616389728960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileSYzryP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616389733310	Marionette	INFO	Listening on port 6897
+1616389733791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616389739558	Marionette	INFO	Stopped listening on port 6897
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616389827621	geckodriver	INFO	Listening on 127.0.0.1:6978
+1616389830640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileBqhskJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616389835449	Marionette	INFO	Listening on port 6986
+1616389835946	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2340, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1616389847426	Marionette	INFO	Stopped listening on port 6986
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616390111861	geckodriver	INFO	Listening on 127.0.0.1:7194
+1616390114894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofile5Qds9r"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616390119014	Marionette	INFO	Listening on port 7202
+1616390119081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616390130953	Marionette	INFO	Stopped listening on port 7202
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616392201745	geckodriver	INFO	Listening on 127.0.0.1:7869
+1616392204801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilen1NkfT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616392210776	Marionette	INFO	Listening on port 7877
+1616392211119	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3276, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1616392216527	Marionette	INFO	Stopped listening on port 7877
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616392243096	geckodriver	INFO	Listening on 127.0.0.1:7941
+1616392458273	geckodriver	INFO	Listening on 127.0.0.1:8050
+1616392461341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileXawQBt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616392465458	Marionette	INFO	Listening on port 8058
+1616392465521	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616393765342	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.gstatic.com/recaptcha/releases/6g5J7UfDQ9mLrweZHj04ekSP/recaptcha__ru.js, line 122: TypeError: can't access property "postMessage", F is undefined
+1616393768089	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393772757	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393775741	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393778616	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393787061	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393788217	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393793085	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393795944	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393800740	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393802740	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393816844	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393820764	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.gstatic.com/recaptcha/releases/6g5J7UfDQ9mLrweZHj04ekSP/recaptcha__ru.js, line 693: SyntaxError: identifier starts immediately after numeric literal
+1616393830761	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393833864	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393841656	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393847704	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393850599	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616393851705	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A001E,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A001E,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230050,name=PBrowser::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230050,name=PBrowser::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230050,name=PBrowser::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230050,name=PBrowser::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230098,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+1616394115517	geckodriver	INFO	Listening on 127.0.0.1:8519
+1616394118542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileJTFjRc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616394124324	Marionette	INFO	Listening on port 8527
+1616394124419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616394135951	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616394150784	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616394157073	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616395851459	geckodriver	INFO	Listening on 127.0.0.1:8840
+1616395854494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileFldu59"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616395859362	Marionette	INFO	Listening on port 8848
+1616395859802	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1616395963939	Marionette	INFO	Stopped listening on port 8848
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+O5Z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616395963305	Marionette	INFO	Listening on port 8937
+1616395963631	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616396743869	Marionette	INFO	Stopped listening on port 8937
+1616397976877	geckodriver	INFO	Listening on 127.0.0.1:9641
+1616397979913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileshVion"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616397984842	Marionette	INFO	Listening on port 9651
+1616397985218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616398489629	Marionette	INFO	Stopped listening on port 9651
+6398488073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofile1oUshT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616398493088	Marionette	INFO	Listening on port 9983
+1616398493390	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616398493394	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+1616398525064	Marionette	INFO	Stopped listening on port 9983
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616411010488	geckodriver	INFO	Listening on 127.0.0.1:5323
+1616411013543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileGK1GbD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616411018647	Marionette	INFO	Listening on port 5331
+1616411018872	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616411018875	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+1616419093553	Marionette	INFO	Stopped listening on port 53311616419093959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilen6PGin"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616419098893	Marionette	INFO	Listening on port 13651
+1616419099282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616419099285	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+JavaScript error: https://www.google.com/xjs/_/js/k=xjs.s.ru.R4F1OeVEytM.O/ck=xjs.s.Bb5PNo8uoLU.L.F4.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,d,csi/am=MIAAAKyCAgIAAACAAgh7gwKgeAAgIAKASSAAAABgAmsAnP8gAHDBJQ4AAAAAgAC0JNAoFSAREAABAACArC6UAIEAFA/d=1/dg=2/ct=zgms/rs=ACT90oGbT922OcIGSvcFnoUUz9Qoc5p4_Q, line 310: TypeError: can't access property "closure_lm_467446", a is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: can't access property "removeEventListener", this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: can't access property "removeEventListener", this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+console.warn: "Async method failed in safeAsyncMethod" (new1616481418881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilebQ9TUG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616481423696	Marionette	INFO	Listening on port 7430
+1616481424203	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616481424207	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+ox@resource://devtools/client/framework/toolbox.js:3718:24\ndestroy@resource://devtools/client/framework/toolbox.js:3652:10\n_forgetBrowserWindow@resource://devtools/client/framework/devtools-browser.js:709:17\nhandleEvent@resource://devtools/client/framework/devtools-browser.js:730:26\n", "resource://devtools/shared/protocol/Front.js", 99))
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616481417428	Marionette	INFO	Stopped listening on port 13651
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616484823469	geckodriver	INFO	Listening on 127.0.0.1:1145
+1616484826498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofiletcpSGo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616485576129	geckodriver	INFO	Listening on 127.0.0.1:9564
+1616485579188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofiletC1ieT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616485603148	Marionette	INFO	Listening on port 9572
+1616485603291	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616485603294	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+1616486854480	Marionette	INFO	Stopped listening on port 9572
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+refox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilepmp33h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616486773072	Marionette	INFO	Listening on port 10110
+1616486773163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616486773168	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: can't access property "removeEventListener", this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+1616491146128	Marionette	INFO	Stopped listening on port 10110
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616492382982	geckodriver	INFO	Listening on 127.0.0.1:3304
+1616492386150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilee7z6Bt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616492409847	Marionette	INFO	Listening on port 3313
+1616492410232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616492410235	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashService waiting for content crash ping to be sent
+          Phase: profile-before-change
+          State: (none)
+WARNING: NotAllowedError: Shutting down and refusing additional I/O tasks
+WARNING: _getStore/this._getStoreTask<@resource://gre/modules/CrashManager.jsm:833:25
+_getStore@resource://gre/modules/CrashManager.jsm:885:7
+addCrash/promise<@resource://gre/modules/CrashManager.jsm:466:30
+addCrash@resource://gre/modules/CrashManager.jsm:488:7
+addCrash@resource://gre/modules/CrashService.jsm:235:41
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 833: NotAllowedError: Shutting down and refusing additional I/O tasks
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 833: NotAllowedError: Shutting down and refusing additional I/O tasks
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 833: NotAllowedError: Shutting down and refusing additional I/O tasks
+1616499947189	Marionette	INFO	Stopped listening on port 3313
+1616501564884	geckodriver	INFO	Listening on 127.0.0.1:13982
+1616501567951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileI8MiLj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616501591233	Marionette	INFO	Listening on port 13990
+1616501591433	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616501591437	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"154.16.202.22:8080"}
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 455: TypeError: can't access property "requestIdleCallback", this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: can't access property "removeEventListener", this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: can't access property "removeEventListener", this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: can't access property "removeEventListener", this.contentWindow is null
+JavaScript error: https://www.gazeta.uz/js/chromepush/main.js?r=v210222, line 57: TypeError: denyNotificationsSubscription is not a function
+1616591456649	Marionette	INFO	Stopped listening on port 13990
+1618478866517	geckodriver	INFO	Listening on 127.0.0.1:13142
+1618478870351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilelxRZRy"
+1618478871424	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618478875303	Marionette	INFO	Listening on port 13150
+1618478875683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1618484572675	geckodriver	INFO	Listening on 127.0.0.1:5787
+1618484575709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileVGV5XY"
+1618484576415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618484582030	Marionette	INFO	Listening on port 5795
+1618484582179	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1618562063863	geckodriver	INFO	Listening on 127.0.0.1:10441
+1618562066878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofilemEBhWa"
+1618562068169	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618562076622	Marionette	INFO	Listening on port 10449
+1618562077021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1618565556768	geckodriver	INFO	Listening on 127.0.0.1:8527
+1618565559812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileXBinDm"
+1618565560961	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618565567525	Marionette	INFO	Listening on port 8535
+1618565567918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1618646040410	Marionette	INFO	Stopped listening on port 8535
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619611667642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepVcYNH"
+Error: no DISPLAY environment variable specified
+1619612712542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiler1qJaw"
+Error: no DISPLAY environment variable specified
+1619615910653	geckodriver	INFO	Listening on 127.0.0.1:14012
+1619615913668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileV82Ztf"
+1619615914485	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofileV82Ztf\\search.json.mozlz4", (void 0)))
+1619615918894	Marionette	INFO	Listening on port 14020
+1619615919017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+JavaScript error: https://openshop.uz/public/frontend/js/main.js, line 1: TypeError: $(...).select2 is not a function
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1619615967035	geckodriver	INFO	Listening on 127.0.0.1:14121
+1619615970061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofiledhiZBA"
+1619615971009	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\farid\\AppData\\Local\\Temp\\rust_mozprofiledhiZBA\\search.json.mozlz4", (void 0)))
+1619615975499	Marionette	INFO	Listening on port 14129
+1619615975882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://openshop.uz/public/frontend/js/main.js, line 1: TypeError: $(...).select2 is not a function
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+JavaScript error: https://openshop.uz/public/frontend/js/main.js, line 1: TypeError: $(...).select2 is not a function
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+JavaScript error: https://openshop.uz/public/frontend/js/main.js, line 1: TypeError: $(...).select2 is not a function
+JavaScript error: https://openshop.uz/public/frontend/js/active-shop.js, line 15: TypeError: can't access property "getAttribute", d is null
+1619616232891	geckodriver	INFO	Listening on 127.0.0.1:33267
+1619616233898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeL5fp0"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+[GFX1-]: Compositor thread not started (true)
+1619618959220	geckodriver	INFO	Listening on 127.0.0.1:46298
+1619618960237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLebek2"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+1619618962421	Marionette	INFO	Marionette enabled
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1619619010216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex84O7y"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+1619619359649	geckodriver	INFO	Listening on 127.0.0.1:40504
+1619619360651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXsLAyr"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+1619619363315	Marionette	INFO	Marionette enabled
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1619619478875	geckodriver	INFO	Listening on 127.0.0.1:48403
+1619619480057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTzJ2Hi"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+[GFX1-]: Compositor thread not started (true)
+1619619533750	geckodriver	INFO	Listening on 127.0.0.1:35001
+1619619534767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHWY2Nn"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+1619619536194	Marionette	INFO	Marionette enabled
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1619669993065	geckodriver	INFO	Listening on 127.0.0.1:42553
+1619669993966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4SjVbm"
+*** You are running in headless mode.
+[GFX1-]: No GPUs detected via PCI
+[GFX1-]: glxtest: process failed (received signal 11)
+[GFX1-]: Compositor thread not started (true)
